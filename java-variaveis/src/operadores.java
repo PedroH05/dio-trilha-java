@@ -11,7 +11,4 @@ public class operadores {
         System.out.println(numero);
 
     }
-
-
-
 }
