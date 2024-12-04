@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "Usuario",
+            "projectName": "dio-trilha-java_ae4914ba"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
