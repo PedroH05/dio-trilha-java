@@ -21,14 +21,11 @@ public class objetos {
 
             String nomeUm = "Pedro";
             String nomeDois = "Pedro";
-
             System.out.println(nomeUm == nomeDois);
 
             String nomeTres = "Henrique";
             String nomeQuattro= new String("Carvalho");
-
             System.out.println(nomeTres.equals(nomeQuattro));
             //serve para conseguir comparar duas string. Objetos nao sao guardados na memoria igual um numero    
     }
-
 }
