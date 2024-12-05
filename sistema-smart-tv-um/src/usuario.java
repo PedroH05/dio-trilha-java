@@ -21,8 +21,12 @@ public class usuario {
         System.out.println("Volume: " + smartTv.volume);
 
         smartTv.ligar();
-        System.out.println("Novo status -> Tv ligada "+ smartTv.ligada);
+        System.out.println("Novo status -> Tv ligada " + smartTv.ligada);
 
+        smartTv.desligar();
+        System.out.println("Novo status -> Tv Desligada " + smartTv.desligada);
+
+        System.out.println("status tv " + smartTv.ligada);
 
         System.out.println("\n");
     }
