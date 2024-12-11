@@ -3,7 +3,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class banco {
-    
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -29,4 +29,5 @@ public class banco {
         System.out.println("Saldo: " + saldo);
 
     }
-}
+}   
+    
