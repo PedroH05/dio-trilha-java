@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -31,10 +32,11 @@ public class ProcessoSeletivo {
 
         } while (continuarTentando && tentativasRealizadas < 3);
 
-        if (atendeu)
-            System.out.println("CONSEGUIMOS CONTATO COM " + candidato + " NA " + tentativasRealizadas + "ª TENTATIVA.");
-        else
+        if (atendeu) {
+            System.out.println("CONSEGUIMOS CONTATO COM " + candidato + " NA " + tentativasRealizadas + "ª TENTATIVA."); 
+        }else {
             System.out.println("NAO CONSEGUIMOS CONTATO COM " + candidato + ", NUMERO MAXIMO DE TENTATIVAS: " + tentativasRealizadas);
+        }
     }
 
     static boolean atender() {
