@@ -14,11 +14,14 @@ public class IphonePedro {
         tel.validandoCredito();
         tel.validandoTelefone();
 
+        System.out.println("\n");
         Safari safari = new Safari();
-        safari.validarInternet();
         safari.pesquisandoNaInternet();
+        safari.validarInternet();
 
+        System.out.println("\n");
         MusicApple music = new MusicApple();
+        music.validarInternet();
         music.escolhendoMusica();
 
         ServicoMensagem sm = null;

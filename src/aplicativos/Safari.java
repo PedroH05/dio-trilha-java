@@ -4,7 +4,6 @@ import aplicativos.servicos.ServicoInternet;
 public class Safari implements ServicoInternet {
 
     public void pesquisandoNaInternet(){
-        validarInternet();
         System.out.println("Pesquisando alguma coisa na internet | safari");
     }
 
