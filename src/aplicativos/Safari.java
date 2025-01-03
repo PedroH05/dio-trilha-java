@@ -8,11 +8,6 @@ public class Safari implements ServicoInternet {
         System.out.println("Pesquisando alguma coisa na internet | safari");
     }
 
-    private void salvarHistorico(){
-        validarInternet();
-        System.out.println("Salvando o historico da internet | safari");
-    }
-
     @Override
     public void validarInternet() {
         System.out.println("Validando internet");
