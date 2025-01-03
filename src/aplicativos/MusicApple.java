@@ -1,7 +1,6 @@
 package aplicativos;
 
 import aplicativos.servicos.ServicoInternet;
-import aplicativos.servicos.ServicoMensagem;
 
 public class MusicApple implements ServicoInternet {
 
